@@ -14,13 +14,8 @@ var articles = {
         content: ` <p>
                     This is the first article on my first web page...This is the first article on my first web page...This is the first article on my first web page...This is the first article on my first web page...This is the first article on my first web page...
                     </p>
-                    <p>
-                    This is the first article on my first web page...This is the first article on my first web page...This is the first article on my first web page...This is the first article on my first web page...This is the first article on my first web page...
-                    </p>
-                    <p>
-                        This is the first article on my first web page...This is the first article on my first web page...This is the first article on my first web page...This is the first article on my first web page...This is the first article on my first web page...
-                    </p>`
-                    };
+                    `
+                    }
     articletwo : {
         title: 'Article Two | Nina'
         heading: 'Article Two'
@@ -29,13 +24,14 @@ var articles = {
                     This is the second article on my first web page...This is the second article on my first web page...
                     </p>
                     `}
-    articlethree : {{title: 'Article Three | Nina'
+    articlethree : {
+        title: 'Article Three | Nina'
         heading: 'Article Three'
         date: 'Aug 10 2017'
         content: ` <p>
                     This is the third article on my first web page...
                     </p>
-                    `}}
+                    `}
 };
 
 
