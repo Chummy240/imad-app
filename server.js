@@ -16,8 +16,10 @@ var articles = {
                     This is the first article on my first web page...This is the first article on my first web page...This is the first article on my first web page...This is the first article on my first web page...This is the first article on my first web page...
                     </p>
                     `
-                    }
-    articletwo :{
+    }
+
+        
+     articletwo :{
         title: 'Article Two | Nina',
         heading: 'Article Two',
         date: 'Aug 10 2017',
