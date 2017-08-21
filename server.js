@@ -18,7 +18,7 @@ var articles = {
                     `}
 
         
-     articletwo :{
+    articletwo :{
         title: 'Article Two | Nina',
         heading: 'Article Two',
         date: 'Aug 10 2017',
