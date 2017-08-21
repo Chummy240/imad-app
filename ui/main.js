@@ -3,5 +3,11 @@ console.log('Loaded!');
 var img = document.getElementById('maid');
 
 img.onclick = function () { 
-    img.stye.marginLeft = '200px';
-}
+    var marginLeft = 0;
+    function moveRight () {
+        marginLeft = marginLeft = 10;
+        img.style.marginLeft = marginLeft + 'px';
+    }
+    var interval = setInterval(moveRight, 100);
+    
+};
