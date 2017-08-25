@@ -1,7 +1,5 @@
 
 //submit name
-var nameInput = document.getElementById('name');
-var name = nameInput.value;
 var submit = document.getElementById('submit_btn');
 submit.onclick = function () {
     
@@ -13,7 +11,6 @@ submit.onclick = function () {
         if (request.readyState === XMLHttpRequest.DONE) {
             //action
             if (request.status === 200) {
-                console.log('user logged in');
                 alert('Login successful :D');
             } else if (request.status === 403) {
                 alert('Username/passowrd is incorrect :(');
